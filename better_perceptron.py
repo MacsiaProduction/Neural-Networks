@@ -33,6 +33,7 @@ class Layer:
 
 class Dense(Layer):
     def __init__(self, input_size, output_size):
+        super().__init__()
         self.weights = np.random.randn(output_size, input_size)
         self.bias = np.random.randn(output_size, 1)
 
@@ -51,6 +52,7 @@ class Dense(Layer):
 
 class Activation(Layer):
     def __init__(self, activation, activation_prime):
+        super().__init__()
         self.activation = activation
         self.activation_prime = activation_prime
 
