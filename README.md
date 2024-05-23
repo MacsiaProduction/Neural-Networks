@@ -12,12 +12,12 @@ This repository contains the code and datasets used for lab works.
 
 ## Lab 2: Multilayer Perceptron
 
-**Files:** 2.ipynb 3.ipynb
+**Files:** 2_1.ipynb 2_2.ipynb
 
 **Description:** This lab focuses on implementing a multilayer perceptron architecture and the backpropagation algorithm for training the network. We train a perceptron regressor on the preprocessed dataset from Lab 1. Additionally, we process a mushroom classification dataset and train a perceptron classifier on it.
 
 **Dataset:** [UCI Mushroom Data Set](https://archive.ics.uci.edu/ml/datasets/Mushroom)
 
 **Additional Notes:** 
-- The notebook 2.ipynb utilizes the first dataset
-- The notebook 3.ipynb utilizes the second dataset
+- The notebook 2_1.ipynb utilizes the first dataset
+- The notebook 2_2.ipynb utilizes the second dataset

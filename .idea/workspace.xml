@@ -1,33 +1,1706 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="058cbcfb-9606-4098-adaa-be30e83247ae" name="Changes" comment="" />
+    <list default="true" id="058cbcfb-9606-4098-adaa-be30e83247ae" name="Changes" comment="refactor perceptron">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Macsi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Steel_industry_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/Coffee_Classifier.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/Text_Summarizer_Project.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/Coffee Bean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Dark/dark (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Green/green (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Light/light (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/test/Medium/medium (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (101).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (102).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (103).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (104).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (105).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (106).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (107).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (108).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (109).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (110).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (111).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (112).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (113).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (114).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (115).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (116).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (117).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (118).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (119).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (120).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (121).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (122).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (123).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (124).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (125).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (126).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (127).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (128).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (129).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (130).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (131).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (132).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (133).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (134).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (135).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (136).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (137).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (138).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (139).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (140).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (141).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (142).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (143).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (144).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (145).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (146).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (147).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (148).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (149).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (150).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (151).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (152).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (153).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (154).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (155).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (156).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (157).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (158).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (159).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (160).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (161).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (162).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (163).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (164).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (165).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (166).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (167).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (168).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (169).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (170).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (171).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (172).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (173).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (174).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (175).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (176).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (177).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (178).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (179).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (180).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (181).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (182).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (183).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (184).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (185).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (186).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (187).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (188).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (189).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (190).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (191).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (192).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (193).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (194).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (195).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (196).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (197).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (198).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (199).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (200).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (201).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (202).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (203).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (204).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (205).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (206).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (207).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (208).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (209).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (210).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (211).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (212).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (213).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (214).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (215).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (216).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (217).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (218).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (219).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (220).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (221).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (222).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (223).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (224).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (225).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (226).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (227).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (228).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (229).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (230).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (231).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (232).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (233).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (234).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (235).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (236).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (237).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (238).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (239).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (240).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (241).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (242).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (243).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (244).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (245).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (246).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (247).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (248).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (249).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (250).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (251).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (252).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (253).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (254).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (255).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (256).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (257).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (258).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (259).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (260).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (261).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (262).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (263).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (264).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (265).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (266).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (267).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (269).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (270).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (271).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (272).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (273).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (274).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (275).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (276).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (277).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (278).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (279).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (280).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (281).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (282).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (283).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (284).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (285).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (286).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (287).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (288).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (289).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (290).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (291).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (292).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (293).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (294).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (295).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (296).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (297).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (298).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (299).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (300).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Dark/dark (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (101).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (102).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (103).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (104).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (105).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (106).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (107).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (108).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (109).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (110).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (111).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (112).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (113).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (114).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (115).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (116).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (117).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (118).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (119).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (120).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (121).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (122).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (123).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (124).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (125).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (126).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (127).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (128).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (129).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (130).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (131).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (132).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (133).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (134).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (135).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (136).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (137).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (138).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (139).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (140).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (141).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (142).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (143).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (144).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (145).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (146).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (147).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (148).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (149).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (150).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (151).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (152).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (153).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (154).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (155).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (156).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (157).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (158).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (159).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (160).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (161).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (162).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (163).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (164).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (165).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (166).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (167).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (168).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (169).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (170).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (171).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (172).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (173).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (174).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (175).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (176).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (177).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (178).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (179).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (180).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (181).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (182).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (183).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (184).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (185).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (186).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (187).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (188).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (189).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (190).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (191).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (192).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (193).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (194).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (195).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (196).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (197).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (198).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (199).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (200).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (201).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (202).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (203).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (204).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (205).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (206).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (207).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (208).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (209).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (210).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (211).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (212).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (213).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (214).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (215).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (216).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (217).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (218).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (219).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (220).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (221).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (222).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (223).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (224).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (225).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (226).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (227).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (228).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (229).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (230).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (231).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (232).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (233).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (234).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (235).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (236).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (237).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (238).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (239).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (240).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (241).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (242).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (243).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (244).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (245).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (246).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (247).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (248).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (249).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (250).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (251).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (252).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (253).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (254).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (255).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (256).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (257).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (258).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (259).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (260).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (261).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (262).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (263).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (264).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (265).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (266).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (267).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (269).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (270).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (271).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (272).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (273).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (274).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (275).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (276).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (277).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (278).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (279).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (280).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (281).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (282).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (283).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (284).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (285).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (286).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (287).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (288).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (289).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (290).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (291).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (292).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (293).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (294).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (295).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (296).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (297).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (298).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (299).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (300).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Green/green (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (101).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (102).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (103).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (104).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (105).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (106).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (107).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (108).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (109).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (110).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (111).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (112).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (113).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (114).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (115).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (116).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (117).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (118).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (119).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (120).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (121).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (122).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (123).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (124).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (125).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (126).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (127).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (128).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (129).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (130).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (131).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (132).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (133).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (134).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (135).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (136).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (137).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (138).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (139).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (140).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (141).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (142).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (143).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (144).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (145).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (146).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (147).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (148).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (149).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (150).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (151).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (152).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (153).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (154).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (155).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (156).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (157).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (158).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (159).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (160).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (161).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (162).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (163).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (164).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (165).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (166).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (167).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (168).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (169).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (170).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (171).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (172).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (173).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (174).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (175).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (176).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (177).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (178).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (179).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (180).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (181).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (182).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (183).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (184).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (185).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (186).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (187).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (188).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (189).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (190).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (191).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (192).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (193).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (194).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (195).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (196).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (197).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (198).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (199).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (200).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (201).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (202).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (203).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (204).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (205).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (206).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (207).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (208).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (209).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (210).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (211).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (212).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (213).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (214).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (215).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (216).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (217).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (218).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (219).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (220).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (221).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (222).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (223).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (224).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (225).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (226).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (227).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (228).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (229).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (230).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (231).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (232).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (233).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (234).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (235).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (236).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (237).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (238).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (239).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (240).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (241).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (242).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (243).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (244).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (245).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (246).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (247).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (248).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (249).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (250).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (251).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (252).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (253).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (254).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (255).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (256).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (257).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (258).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (259).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (260).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (261).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (262).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (263).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (264).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (265).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (266).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (267).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (269).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (270).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (271).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (272).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (273).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (274).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (275).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (276).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (277).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (278).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (279).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (280).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (281).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (282).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (283).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (284).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (285).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (286).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (287).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (288).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (289).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (290).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (291).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (292).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (293).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (294).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (295).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (296).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (297).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (298).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (299).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (300).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Light/light (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (101).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (102).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (103).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (104).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (105).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (106).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (107).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (108).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (109).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (110).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (111).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (112).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (113).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (114).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (115).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (116).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (117).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (118).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (119).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (120).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (121).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (122).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (123).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (124).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (125).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (126).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (127).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (128).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (129).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (130).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (131).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (132).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (133).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (134).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (135).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (136).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (137).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (138).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (139).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (140).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (141).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (142).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (143).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (144).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (145).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (146).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (147).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (148).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (149).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (150).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (151).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (152).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (153).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (154).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (155).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (156).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (157).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (158).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (159).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (160).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (161).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (162).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (163).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (164).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (165).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (166).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (167).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (168).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (169).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (170).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (171).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (172).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (173).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (174).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (175).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (176).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (177).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (178).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (179).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (180).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (181).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (182).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (183).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (184).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (185).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (186).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (187).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (188).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (189).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (190).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (191).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (192).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (193).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (194).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (195).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (196).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (197).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (198).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (199).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (200).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (201).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (202).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (203).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (204).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (205).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (206).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (207).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (208).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (209).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (210).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (211).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (212).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (213).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (214).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (215).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (216).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (217).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (218).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (219).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (220).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (221).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (222).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (223).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (224).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (225).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (226).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (227).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (228).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (229).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (230).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (231).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (232).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (233).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (234).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (235).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (236).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (237).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (238).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (239).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (240).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (241).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (242).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (243).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (244).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (245).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (246).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (247).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (248).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (249).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (250).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (251).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (252).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (253).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (254).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (255).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (256).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (257).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (258).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (259).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (260).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (261).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (262).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (263).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (264).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (265).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (266).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (267).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (269).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (270).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (271).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (272).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (273).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (274).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (275).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (276).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (277).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (278).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (279).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (280).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (281).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (282).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (283).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (284).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (285).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (286).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (287).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (288).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (289).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (290).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (291).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (292).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (293).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (294).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (295).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (296).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (297).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (298).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (299).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (300).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/coffee_dataset/train/Medium/medium (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooi/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laptop_price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Laptop_price.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mushrooms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/mushrooms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perceptron.py" beforeDir="false" />
+    </list>
+    <list id="c8eb97cb-880c-4e52-8620-9f4c5d681fb3" name="init_input" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MacsiaProduction&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bc987e73-9e04-441b-af95-ec71e41642e7" />
+        <option name="url" value="https://github.com/MacsiaProduction/Neural-Networks.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2cnb6VZe0hQKUWAgpwrLuskAz8p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.perceptron.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Macsi/PycharmProjects/NeuralNetworks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\tooi" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\coffe_dataset" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\labs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\tooi" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\data" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks" />
+      <recent name="C:\Users\Macsi\PycharmProjects\NeuralNetworks\labs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -39,12 +1712,85 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="058cbcfb-9606-4098-adaa-be30e83247ae" name="Changes" comment="" />
+      <changelist id="c8eb97cb-880c-4e52-8620-9f4c5d681fb3" name="init_input" comment="" />
       <created>1708750116280</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708750116280</updated>
-      <workItem from="1708750176201" duration="3000" />
+      <workItem from="1708750176201" duration="1085000" />
+      <workItem from="1708762209468" duration="11747000" />
+      <workItem from="1708853379800" duration="11603000" />
+      <workItem from="1708870118879" duration="528000" />
+      <workItem from="1708871499924" duration="2042000" />
+      <workItem from="1708873567804" duration="3095000" />
+      <workItem from="1709208005135" duration="1721000" />
+      <workItem from="1709461689429" duration="2876000" />
+      <workItem from="1709894536622" duration="2032000" />
+      <workItem from="1710244514942" duration="194000" />
+      <workItem from="1710245456290" duration="5475000" />
+      <workItem from="1710257369640" duration="640000" />
+      <workItem from="1712157322271" duration="46000" />
+      <workItem from="1712688864512" duration="1141000" />
+      <workItem from="1712690035371" duration="9514000" />
+      <workItem from="1712833788508" duration="4663000" />
+      <workItem from="1713191351244" duration="4495000" />
+      <workItem from="1713529460619" duration="15524000" />
+      <workItem from="1713609904461" duration="12456000" />
+      <workItem from="1713639522288" duration="1042000" />
+      <workItem from="1713673560349" duration="673000" />
+      <workItem from="1713676079589" duration="18446000" />
+      <workItem from="1713699398356" duration="846000" />
+      <workItem from="1713708928667" duration="157000" />
+      <workItem from="1713891254100" duration="45000" />
+      <workItem from="1713953233300" duration="1000" />
+      <workItem from="1714043680255" duration="2649000" />
+      <workItem from="1715086023335" duration="2000" />
+      <workItem from="1715257105538" duration="4662000" />
+      <workItem from="1715340420832" duration="5806000" />
+      <workItem from="1715346481919" duration="288000" />
+      <workItem from="1715424607096" duration="2244000" />
+      <workItem from="1715447446137" duration="14515000" />
+      <workItem from="1715614055051" duration="2099000" />
+      <workItem from="1715781287497" duration="11620000" />
+      <workItem from="1715859698495" duration="4667000" />
+      <workItem from="1716215646878" duration="2758000" />
+      <workItem from="1716273533109" duration="362000" />
+      <workItem from="1716293481048" duration="809000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor perceptron">
+      <option name="closed" value="true" />
+      <created>1713594125765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713594125765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add CNN">
+      <option name="closed" value="true" />
+      <created>1713699492619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713699492619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="refactor perceptron" />
+    <MESSAGE value="add CNN" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CNN" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NeuralNetworks$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1712690963856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
   </component>
 </project>
